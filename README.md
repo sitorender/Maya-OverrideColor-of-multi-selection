@@ -2,6 +2,7 @@
 // Script to change Override Color of all the selected objects
 
 
+
 string $text;
 int $ovecolor[];
 string $result = `promptDialog
