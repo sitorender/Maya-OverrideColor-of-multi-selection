@@ -1,8 +1,8 @@
 string $text;
 int $ovecolor[];
 string $result = `promptDialog
-    -title "Rename Object"
-    -message "Enter Name:"
+    -title "OverrideColor"
+    -message "Enter color number:"
     -button "OK" -button "Cancel"
     -defaultButton "OK" -cancelButton "Cancel"
     -dismissString "Cancel"`;
